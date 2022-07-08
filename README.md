@@ -1,11 +1,11 @@
-# MarkdownUI
+# Flexible MarkdownUI
 [![CI](https://github.com/gonzalezreal/MarkdownUI/workflows/CI/badge.svg)](https://github.com/gonzalezreal/MarkdownUI/actions?query=workflow%3ACI)
 [![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fgonzalezreal%2FMarkdownUI%2Fbadge%3Ftype%3Dswift-versions)](https://swiftpackageindex.com/gonzalezreal/MarkdownUI)
 [![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fgonzalezreal%2FMarkdownUI%2Fbadge%3Ftype%3Dplatforms)](https://swiftpackageindex.com/gonzalezreal/MarkdownUI)
 [![contact: @gonzalezreal](https://img.shields.io/badge/contact-@gonzalezreal-blue.svg?style=flat)](https://twitter.com/gonzalezreal)
 
-MarkdownUI is a Swift package for rendering Markdown in SwiftUI, fully compliant with the
-[CommonMark Spec](https://spec.commonmark.org/current/).
+Flexible MarkdownUI is a Swift package for rendering Markdown in SwiftUI, fully compliant with the
+[CommonMark Spec](https://spec.commonmark.org/current/). Our fork supports flexible width, with flexibleWidth in configuration.
 
 ## Supported Platforms
 
@@ -323,11 +323,11 @@ Markdown(
 You can add MarkdownUI to an Xcode project by adding it as a package dependency.
 
 1. From the **File** menu, select **Add Packages…**
-1. Enter `https://github.com/gonzalezreal/MarkdownUI` into the *Search or Enter Package URL* search
+1. Enter `https://github.com/wilmaplus/MarkdownUI` into the *Search or Enter Package URL* search
    field
 1. Link **MarkdownUI** to your application target
 
 ## Other Libraries
 * [CommonMarkAttributedString](https://github.com/mattt/CommonMarkAttributedString)
 * [Down](https://github.com/johnxnguyen/Down)
-* [AttributedText](https://github.com/gonzalezreal/AttributedText)
+* [FlexibleAttributedText](https://github.com/wilmaplus/FlexibleAttributedText)
