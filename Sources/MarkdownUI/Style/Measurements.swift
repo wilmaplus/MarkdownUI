@@ -26,7 +26,7 @@ extension MarkdownStyle {
 
     /// The distance between the bottom of a heading and the top of the next block, relative to the base font size.
     public var headingSpacing: CGFloat
-      
+
     public var flexibleWidth: Bool
 
     /// Creates a `Measurements` instance.

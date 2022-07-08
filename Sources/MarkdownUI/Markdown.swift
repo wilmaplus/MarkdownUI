@@ -1,7 +1,7 @@
-import FlexibleAttributedText
 import Combine
 import CombineSchedulers
 @_exported import CommonMark
+import FlexibleAttributedText
 import SwiftUI
 
 /// A view that displays Markdown-formatted text.
@@ -227,10 +227,13 @@ public struct Markdown: View {
   }
 
   public var body: some View {
-      FlexibleAttributedText(self.viewState.attributedString, onOpenLink: openMarkdownLink?.handler, flexibleWidth: style.measurements.flexibleWidth)
-      .onReceive(self.viewStatePublisher) { viewState in
-        self.viewState = viewState
-      }
+    FlexibleAttributedText(
+      self.viewState.attributedString, onOpenLink: openMarkdownLink?.handler,
+      flexibleWidth: style.measurements.flexibleWidth
+    )
+    .onReceive(self.viewStatePublisher) { viewState in
+      self.viewState = viewState
+    }
   }
 
   private func loadMarkdownImages(_ hashValue: Int) -> AnyPublisher<ViewState, Never> {
