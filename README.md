@@ -323,11 +323,11 @@ Markdown(
 You can add MarkdownUI to an Xcode project by adding it as a package dependency.
 
 1. From the **File** menu, select **Add Packages…**
-1. Enter `https://github.com/gonzalezreal/MarkdownUI` into the *Search or Enter Package URL* search
+1. Enter `https://github.com/wilmaplus/MarkdownUI` into the *Search or Enter Package URL* search
    field
 1. Link **MarkdownUI** to your application target
 
 ## Other Libraries
 * [CommonMarkAttributedString](https://github.com/mattt/CommonMarkAttributedString)
 * [Down](https://github.com/johnxnguyen/Down)
-* [AttributedText](https://github.com/gonzalezreal/AttributedText)
+* [FlexibleAttributedText](https://github.com/wilmaplus/FlexibleAttributedText)
