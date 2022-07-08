@@ -1,4 +1,4 @@
-import AttributedText
+import FlexibleAttributedText
 import Combine
 import CombineSchedulers
 @_exported import CommonMark
@@ -227,7 +227,7 @@ public struct Markdown: View {
   }
 
   public var body: some View {
-    AttributedText(self.viewState.attributedString, onOpenLink: openMarkdownLink?.handler)
+      FlexibleAttributedText(self.viewState.attributedString, onOpenLink: openMarkdownLink?.handler, flexibleWidth: style.measurements.flexibleWidth)
       .onReceive(self.viewStatePublisher) { viewState in
         self.viewState = viewState
       }

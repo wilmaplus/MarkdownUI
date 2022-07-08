@@ -26,6 +26,8 @@ extension MarkdownStyle {
 
     /// The distance between the bottom of a heading and the top of the next block, relative to the base font size.
     public var headingSpacing: CGFloat
+      
+    public var flexibleWidth: Bool
 
     /// Creates a `Measurements` instance.
     /// - Parameters:
@@ -39,6 +41,7 @@ extension MarkdownStyle {
     ///   - headingScales: The scale that the `Markdown` view applies to each heading level.
     ///   - headingSpacing: The distance between the bottom of a heading and the top of the next block,
     ///                     relative to the base font size. The default is `0.67`.
+    ///   - flexibleWidth: Flexible width does not take full width of available space
     public init(
       codeFontScale: CGFloat = 0.94,
       headIndentStep: CGFloat = 1.97,
@@ -46,7 +49,8 @@ extension MarkdownStyle {
       paragraphSpacing: CGFloat = 1,
       listMarkerSpacing: CGFloat = 0.47,
       headingScales: HeadingScales = .default,
-      headingSpacing: CGFloat = 0.67
+      headingSpacing: CGFloat = 0.67,
+      flexibleWidth: Bool = false
     ) {
       self.codeFontScale = codeFontScale
       self.headIndentStep = headIndentStep
@@ -55,6 +59,7 @@ extension MarkdownStyle {
       self.listMarkerSpacing = listMarkerSpacing
       self.headingScales = headingScales
       self.headingSpacing = headingSpacing
+      self.flexibleWidth = flexibleWidth
     }
   }
 }

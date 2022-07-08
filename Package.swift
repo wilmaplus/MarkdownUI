@@ -22,8 +22,8 @@ let package = Package(
       from: "1.0.0"
     ),
     .package(
-      name: "AttributedText",
-      url: "https://github.com/gonzalezreal/AttributedText",
+      name: "FlexibleAttributedText",
+      url: "https://github.com/wilmaplus/FlexibleAttributedText",
       from: "1.0.0"
     ),
     .package(
@@ -43,7 +43,7 @@ let package = Package(
       name: "MarkdownUI",
       dependencies: [
         .product(name: "CommonMark", package: "SwiftCommonMark"),
-        "AttributedText",
+        "FlexibleAttributedText",
         "NetworkImage",
         .product(name: "CombineSchedulers", package: "combine-schedulers"),
       ]
