@@ -11,12 +11,12 @@
         }
       },
       {
-        "package": "AttributedText",
+        "package": "FlexibleAttributedText",
         "repositoryURL": "https://github.com/wilmaplus/FlexibleAttributedText",
         "state": {
           "branch": null,
-          "revision": "2dc2d7864e0fee4b524a5850d7d7cf9a7eeda0fc",
-          "version": "1.0.0"
+          "revision": "a3fc604830b0f257276d4db8c98f99866862892b",
+          "version": "1.1.0"
         }
       },
       {
